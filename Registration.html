@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <table width="100%">
+      <table width="100%">
+        <tr width="100%">
+          <td width="70%">
+            <form action="">
+              <table style="border: 5px; border-spacing: 15px;">
+                <!-- first name info collector -->
+                <tr>
+                  <td>
+                    <label for="firstName">First&nbsp;name</label><br>
+                    <input
+                      type="text"
+                      name="firstName"
+                      id="firstName"
+                      placeholder="e.g John"
+                    />
+                  </td>
+                </tr>
+                <!-- surname info collector -->
+                <tr>
+                  <td>
+                    <label for="lastName">Surname</label><br>
+                    <input
+                      type="text"
+                      name="lastName"
+                      id="lastName"
+                      placeholder="e.g Doe"
+                    />
+                  </td>
+                </tr>
+                <!-- email collector -->
+                <tr>
+                  <td>
+                    <label for="Email">Email</label><br>
+                    <input
+                      type="email"
+                      name="Email"
+                      id="Email"
+                      placeholder="e.g someone@email.com"
+                    />
+                  </td>
+                </tr>
+                <!-- set password -->
+                <tr>
+                  <td>
+                    <label for="inputPassword">Input&nbsp;Password</label><br>
+                    <input
+                      type="password"
+                      id="inputPassword"
+                      placeholder="at least 8 characters"
+                    />
+                  </td>
+                </tr>
+                <!-- confirm password -->
+                <tr>
+                  <td>
+                    <label for="confirmPassword">Confirm&nbsp;Password</label><br>
+                    <input
+                      type="password"
+                      id="confirmPassword"
+                      placeholder="at least 8 characters"
+                    />
+                  </td>
+                </tr>
+
+                <tr>
+                  <!-- gender info collector -->
+                  <td>
+                    <label for="Gender">Gender</label>
+                    <select name="Gender" id="Gender">
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="other">other</option>
+                    </select>
+                  </td>
+                  <!-- bio info collector -->
+                  <td>
+                    <label for="Bio">Bio</label><br>
+                    <textarea
+                      name="Bio"
+                      id="Bio"
+                      cols="20"
+                      rows="5"
+                      placeholder="Tell us a little about yourself"
+                    ></textarea>
+                  </td>
+                  <!-- skill type collector -->
+                  <td>
+                    <label for="skillDescription">Skill&nbsp;description</label
+                    ><br />
+                    <input
+                      type="radio"
+                      name="skiillDescription"
+                      id="skillDescription"
+                      value="Remote"
+                    />Remote
+                    <br />
+                    <input
+                      type="radio"
+                      name="skiillDescription"
+                      id="skillDescription"
+                      value="Present"
+                    />Non-remote
+                    <br><a style="font-size: 14px;" href="">Learn more</a>
+                  </td>
+                </tr>
+              </table>
+
+              <button>Register</button>
+            </form>
+          </td>
+
+          <td width="30%">
+            <img src="" alt="" />
+          </td>
+        </tr>
+      </table>
+    </table>
+  </body>
+</html>
