@@ -1,0 +1,28 @@
+body{
+    
+}
+
+.window{
+    background-color: rgba(158, 139, 195, 0.423);
+}
+
+.registration-form{
+    border-spacing: 15px;
+}
+
+.text-box{
+    background: rgb(246, 243, 236);
+}
+
+a:hover{
+    color:rgb(49, 39, 37);
+}
+
+.justify{
+    align-items: stretch;
+    text-align: justify;
+}
+
+td > p.vitae{
+    text-align: center;
+}
